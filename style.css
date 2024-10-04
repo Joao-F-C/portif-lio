@@ -1,7 +1,23 @@
-body {
-    /* background-color: pink; */
-    background-image: url("https://plus.unsplash.com/premium_photo-1675518474491-a8264226b389?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    font-family: Arial, Helvetica, sans-serif; /* alterar fonte */
-    background-repeat: no-repeat; 
-    background-size: auto;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
